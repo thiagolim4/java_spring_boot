@@ -1,4 +1,4 @@
-# Java Spring Boot
+# Spring Boot 01
 
 - Projeto Web usando Spring Boot
 - Usando o Spring initializr, ele já gera tudo que necessita de início do projeto (pom, dependências, etc): ```start.spring.io```
