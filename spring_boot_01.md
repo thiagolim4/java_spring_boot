@@ -30,3 +30,13 @@
 ```
 - Com o padrão DTO, cria-se uma classe com os valores específicos que eu quero retornar com um endpoint
  - Como vai usar JPA não é bom nos métodos de endpoint retornar listas completas dos objetos, por isso o uso dessas classes
+- Nesse tipo de classe eu coloco apenas getters
+
+## REST
+- Tipo de arquitetura para sistemas distribuídos
+- Ela manipula recursos, e cada recurso é acessado por uma URI (identificador de recurso)
+- Pra facilitar a manipulação tem-se os verbos HTTP
+ - GET, POST, PUT, DELETE
+- A API recebe e devolve representações de recursos (que são feitas pelos media types = JSON, XML)
+- Tem comunicação Stateless, não guardam estado da comunicação (sem uso de sessão)
+- Spring, por padrão, converte os dados no formato JSON, utilizando a biblioteca ```Jackson```;
