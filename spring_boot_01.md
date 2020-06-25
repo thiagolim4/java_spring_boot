@@ -11,7 +11,7 @@
 ```java
 @Controller
 ```
-- Mapeando o endereço pro String encontrar a classe:
+- Mapeando o endereço pro Spring encontrar a classe:
 ```java
 @RequestMapping("/")
 ```
